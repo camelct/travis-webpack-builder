@@ -6,7 +6,7 @@
   "author": "CT <821982911@qq.com>",
   "license": "MIT",
   "scripts": {
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "test": "node ./node_modules/mocha/bin/_mocha",
     "build": "webpack --config ./lib/webpack.prod.js",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server --config ./lib/webpack.dev.js --open",
